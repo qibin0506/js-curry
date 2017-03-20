@@ -1,7 +1,7 @@
 # js-curry
 currying function in javascript
 
-Useage:
+Usage:
 ``` html
 <script type="text/javascript">
 var fn = curry(function(x, y, z) {

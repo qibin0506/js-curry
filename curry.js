@@ -8,7 +8,7 @@ var curry = function(fn, length) {
 			return fn.apply(this, arguments);
 		}
 	};
-}
+};
 
 var curry_once = function(fn) {
 	var args = Array.prototype.slice.call(arguments, 1);

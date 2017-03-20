@@ -3,6 +3,7 @@ currying function in javascript
 
 Usage:
 ``` html
+<script type="text/javascript" src="./curry.js"></script>
 <script type="text/javascript">
 var fn = curry(function(x, y, z) {
 	return x + y + z;
